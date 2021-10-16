@@ -1,13 +1,92 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "GothamPro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/GothamPro-Bold.eot");
+  src: local("GothamPro-Bold"),
+    url("./fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/GothamPro-Bold.woff2") format("woff2"),
+    url("./fonts/GothamPro-Bold.woff") format("woff"),
+    url("./fonts/GothamPro-Bold.ttf") format("truetype"),
+    url("./fonts/GothamPro-Bold.svg#") format("svg");
+}
+
+@font-face {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Verdana.eot");
+  src: local("Verdana"),
+    url("./fonts/Verdana.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Verdana.woff2") format("woff2"),
+    url("./fonts/Verdana.woff") format("woff"),
+    url("./fonts/Verdana.ttf") format("truetype"),
+    url("./fonts/Verdana.svg#") format("svg");
+}
+
+@font-face {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/Verdana-Bold.eot");
+  src: local("Verdana"),
+    url("./fonts/Verdana-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Verdana-Bold.woff2") format("woff2"),
+    url("./fonts/Verdana-Bold.woff") format("woff"),
+    url("./fonts/Verdana-Bold.ttf") format("truetype"),
+    url("./fonts/Verdana-Bold.svg#") format("svg");
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
