@@ -14,6 +14,12 @@ function HomePageView() {
             <p>Lorem5 Lorem5 Lorem5 Lorem5 Lorem5 </p>
           </div>
         </section>
+        <section>
+          <div className={styles.poster}>
+            <h2 className={styles.title}>Коротко обо мне</h2>
+            <p>Lorem5 Lorem5 Lorem5 Lorem5 Lorem5 </p>
+          </div>
+        </section>
       </ContainerForHomepage>
     </div>
   );
