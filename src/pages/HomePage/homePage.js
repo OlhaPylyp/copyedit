@@ -12,6 +12,7 @@ function HomePageView() {
           <div className={styles.poster}>
             <h1 className={styles.title}>основной текст</h1>
             <p>Lorem5 Lorem5 Lorem5 Lorem5 Lorem5 </p>
+            <button className={styles.btn}>Обо мне</button>
           </div>
         </section>
         <section>
