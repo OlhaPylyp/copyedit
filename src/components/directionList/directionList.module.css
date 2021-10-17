@@ -1,0 +1,39 @@
+@media screen and (min-width: 1280px) {
+  li {
+    list-style: none;
+  }
+  .container {
+    padding-top: 80px;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 0;
+    list-style: none;
+  }
+  .item {
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-basis: calc((100% - 30px) / 4);
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+  .item:nth-child(2n + 2) {
+    margin-top: 150px;
+  }
+  .number {
+    position: absolute;
+    font-family: Georgia Verdana, Tahoma, sans-serif;
+    font-size: 100px;
+    top: -150px;
+    left: 30%;
+    transform: translateX(-50%);
+    color: rgba(1, 153, 109, 0.2);
+  }
+}

@@ -2,7 +2,7 @@
   .homepage {
     /* display: flex; */
     /* justify-content: center; */
-    /* margin: 0 auto; */
+    padding-bottom: 30px;
     width: 100%;
   }
   .bg {
@@ -50,5 +50,13 @@
     letter-spacing: 0.06em;
     border: none;
     outline: none;
+  }
+  .sectionTitle {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    font-weight: 700;
+    text-align: center;
   }
 }
