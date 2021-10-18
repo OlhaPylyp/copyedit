@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/copyedit/static/css/main.2e257c37.chunk.css",
-    "main.js": "/copyedit/static/js/main.af2b0454.chunk.js",
-    "main.js.map": "/copyedit/static/js/main.af2b0454.chunk.js.map",
+    "main.css": "/copyedit/static/css/main.6f884e26.chunk.css",
+    "main.js": "/copyedit/static/js/main.23b5f4de.chunk.js",
+    "main.js.map": "/copyedit/static/js/main.23b5f4de.chunk.js.map",
     "runtime-main.js": "/copyedit/static/js/runtime-main.ae7a9173.js",
     "runtime-main.js.map": "/copyedit/static/js/runtime-main.ae7a9173.js.map",
     "static/js/2.8b575b50.chunk.js": "/copyedit/static/js/2.8b575b50.chunk.js",
     "static/js/2.8b575b50.chunk.js.map": "/copyedit/static/js/2.8b575b50.chunk.js.map",
     "index.html": "/copyedit/index.html",
-    "precache-manifest.4941a0e953a3b1331038729a98927cc4.js": "/copyedit/precache-manifest.4941a0e953a3b1331038729a98927cc4.js",
+    "precache-manifest.55c95566cdfce588111c157d3090e029.js": "/copyedit/precache-manifest.55c95566cdfce588111c157d3090e029.js",
     "service-worker.js": "/copyedit/service-worker.js",
-    "static/css/main.2e257c37.chunk.css.map": "/copyedit/static/css/main.2e257c37.chunk.css.map",
+    "static/css/main.6f884e26.chunk.css.map": "/copyedit/static/css/main.6f884e26.chunk.css.map",
     "static/js/2.8b575b50.chunk.js.LICENSE.txt": "/copyedit/static/js/2.8b575b50.chunk.js.LICENSE.txt",
     "static/media/index.css": "/copyedit/static/media/Verdana.977a9918.woff",
     "static/media/homePage.module.css": "/copyedit/static/media/overhead-view-of-spiral-notepad-with-pen-and-pink-flowers-on-wooden-background_23-2147889664.ced06691.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.ae7a9173.js",
     "static/js/2.8b575b50.chunk.js",
-    "static/css/main.2e257c37.chunk.css",
-    "static/js/main.af2b0454.chunk.js"
+    "static/css/main.6f884e26.chunk.css",
+    "static/js/main.23b5f4de.chunk.js"
   ]
 }
