@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.NavLink {
+  font-size: 20px;
+  color: currentColor;
+}
+
+.NavLinkActive {
+  color: palevioletred;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+.item {
+  margin-left: 20px;
+}

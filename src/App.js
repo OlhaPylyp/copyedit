@@ -1,14 +1,15 @@
 import React from "react";
-import "./App.css";
-import HomePageView from "./pages/HomePage/homePage";
-
+import styles from "./App.css";
+import Header from "./components/Header";
+import HomePage from "./pages/HomePage/HomePage";
+import { Suspense } from "react";
+import { Route, NavLink, Switch } from "react-router-dom";
+import routes from "./routes";
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header> */}
-      <HomePageView />
+      <Header />
+      <HomePage />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
 import PropTypes from "prop-types";
-import styles from "../directionList/directionList.module.css";
+import styles from "./DirectionList.module.css";
 
 const FieldsList = ({ fields }) => (
   <div className={styles.container}>
@@ -13,7 +13,7 @@ const FieldsList = ({ fields }) => (
           <h3 className={styles.title}>{title}</h3>
           <p className={styles.number}>{id}</p>
           <p className={styles.text}>{text}</p>
-          <img className="avatar" src={img} alt={title} width="200" />
+          <img className="avatar" src={img} alt={title} width="350" />
         </li>
       ))}
     </ul>

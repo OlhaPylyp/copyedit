@@ -5,7 +5,7 @@ import styles from "../footer/Footer.module.css";
 
 function Footer() {
   return (
-    <div className={styles.social_container}>
+    <div className={styles.footer_container}>
       <p className={styles.footer_title}>присоединяйтесь</p>
       <ul className={styles.footer_social}>
         <li className={styles.item}>

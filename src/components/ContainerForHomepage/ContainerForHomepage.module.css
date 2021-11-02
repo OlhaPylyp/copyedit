@@ -18,10 +18,11 @@
 @media screen and (min-width: 1280px) {
   .homeContainer {
     /* width: 745px; */
-    width: 630px;
+    width: 1200px;
     /* margin: 70px 31px 74px 115px; */
     margin: 70px 0 70px 25px;
     padding: 0 0;
     /* outline: 1px solid green; */
+    justify-content: center;
   }
 }
