@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/copyedit/static/css/main.a111f835.chunk.css",
-    "main.js": "/copyedit/static/js/main.51bddb36.chunk.js",
-    "main.js.map": "/copyedit/static/js/main.51bddb36.chunk.js.map",
+    "main.css": "/copyedit/static/css/main.2474986c.chunk.css",
+    "main.js": "/copyedit/static/js/main.b1c972f9.chunk.js",
+    "main.js.map": "/copyedit/static/js/main.b1c972f9.chunk.js.map",
     "runtime-main.js": "/copyedit/static/js/runtime-main.ae7a9173.js",
     "runtime-main.js.map": "/copyedit/static/js/runtime-main.ae7a9173.js.map",
-    "static/js/2.8b575b50.chunk.js": "/copyedit/static/js/2.8b575b50.chunk.js",
-    "static/js/2.8b575b50.chunk.js.map": "/copyedit/static/js/2.8b575b50.chunk.js.map",
+    "static/js/2.793754ea.chunk.js": "/copyedit/static/js/2.793754ea.chunk.js",
+    "static/js/2.793754ea.chunk.js.map": "/copyedit/static/js/2.793754ea.chunk.js.map",
     "index.html": "/copyedit/index.html",
-    "precache-manifest.bea7c47bd23b8098ef9d2c30407ba0d0.js": "/copyedit/precache-manifest.bea7c47bd23b8098ef9d2c30407ba0d0.js",
+    "precache-manifest.a1498cacbbf2b2c3f537d99b876e913e.js": "/copyedit/precache-manifest.a1498cacbbf2b2c3f537d99b876e913e.js",
     "service-worker.js": "/copyedit/service-worker.js",
-    "static/css/main.a111f835.chunk.css.map": "/copyedit/static/css/main.a111f835.chunk.css.map",
-    "static/js/2.8b575b50.chunk.js.LICENSE.txt": "/copyedit/static/js/2.8b575b50.chunk.js.LICENSE.txt",
+    "static/css/main.2474986c.chunk.css.map": "/copyedit/static/css/main.2474986c.chunk.css.map",
+    "static/js/2.793754ea.chunk.js.LICENSE.txt": "/copyedit/static/js/2.793754ea.chunk.js.LICENSE.txt",
     "static/media/index.css": "/copyedit/static/media/Verdana.977a9918.woff",
-    "static/media/homePage.module.css": "/copyedit/static/media/overhead-view-of-spiral-notepad-with-pen-and-pink-flowers-on-wooden-background_23-2147889664.ced06691.jpg"
+    "static/media/Poster.module.css": "/copyedit/static/media/overhead-view-of-spiral-notepad-with-pen-and-pink-flowers-on-wooden-background_23-2147889664.ced06691.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ae7a9173.js",
-    "static/js/2.8b575b50.chunk.js",
-    "static/css/main.a111f835.chunk.css",
-    "static/js/main.51bddb36.chunk.js"
+    "static/js/2.793754ea.chunk.js",
+    "static/css/main.2474986c.chunk.css",
+    "static/js/main.b1c972f9.chunk.js"
   ]
 }
