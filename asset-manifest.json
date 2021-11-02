@@ -5,7 +5,7 @@
     "MovieDetailsPage.js.map": "/copyedit/static/js/MovieDetailsPage.c72bb477.chunk.js.map",
     "MoviesPage.js": "/copyedit/static/js/MoviesPage.9223f606.chunk.js",
     "MoviesPage.js.map": "/copyedit/static/js/MoviesPage.9223f606.chunk.js.map",
-    "main.css": "/copyedit/static/css/main.fc6fd839.chunk.css",
+    "main.css": "/copyedit/static/css/main.d66aaa17.chunk.css",
     "main.js": "/copyedit/static/js/main.f672d787.chunk.js",
     "main.js.map": "/copyedit/static/js/main.f672d787.chunk.js.map",
     "runtime-main.js": "/copyedit/static/js/runtime-main.97cc7551.js",
@@ -13,10 +13,10 @@
     "static/js/4.a8ed8239.chunk.js": "/copyedit/static/js/4.a8ed8239.chunk.js",
     "static/js/4.a8ed8239.chunk.js.map": "/copyedit/static/js/4.a8ed8239.chunk.js.map",
     "index.html": "/copyedit/index.html",
-    "precache-manifest.2ad2b77d20d9f510239cfdd7a780ff62.js": "/copyedit/precache-manifest.2ad2b77d20d9f510239cfdd7a780ff62.js",
+    "precache-manifest.c4638c19d4ac74e3f7a1c8169cf02b15.js": "/copyedit/precache-manifest.c4638c19d4ac74e3f7a1c8169cf02b15.js",
     "service-worker.js": "/copyedit/service-worker.js",
     "static/css/MovieDetailsPage.663ca166.chunk.css.map": "/copyedit/static/css/MovieDetailsPage.663ca166.chunk.css.map",
-    "static/css/main.fc6fd839.chunk.css.map": "/copyedit/static/css/main.fc6fd839.chunk.css.map",
+    "static/css/main.d66aaa17.chunk.css.map": "/copyedit/static/css/main.d66aaa17.chunk.css.map",
     "static/js/4.a8ed8239.chunk.js.LICENSE.txt": "/copyedit/static/js/4.a8ed8239.chunk.js.LICENSE.txt",
     "static/media/index.css": "/copyedit/static/media/Verdana.977a9918.woff",
     "static/media/Poster.module.css": "/copyedit/static/media/overhead-view-of-spiral-notepad-with-pen-and-pink-flowers-on-wooden-background_23-2147889664.ced06691.jpg"
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.97cc7551.js",
     "static/js/4.a8ed8239.chunk.js",
-    "static/css/main.fc6fd839.chunk.css",
+    "static/css/main.d66aaa17.chunk.css",
     "static/js/main.f672d787.chunk.js"
   ]
 }

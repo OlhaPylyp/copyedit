@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47f65b9c42f545e0567a08b4fa2a8578",
+    "revision": "b6785478b83bb1862c3fc5a07139f920",
     "url": "/copyedit/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/copyedit/static/css/MovieDetailsPage.663ca166.chunk.css"
   },
   {
-    "revision": "d905a38842c3761fe702",
-    "url": "/copyedit/static/css/main.fc6fd839.chunk.css"
+    "revision": "6f400291bc673b9e05a0",
+    "url": "/copyedit/static/css/main.d66aaa17.chunk.css"
   },
   {
     "revision": "51a8ac3d70a9e1ab02a3",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/copyedit/static/js/MoviesPage.9223f606.chunk.js"
   },
   {
-    "revision": "d905a38842c3761fe702",
+    "revision": "6f400291bc673b9e05a0",
     "url": "/copyedit/static/js/main.f672d787.chunk.js"
   },
   {
