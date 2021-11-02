@@ -1,47 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c32d614b3e4c4b7ec1168ca89c88171",
+    "revision": "47f65b9c42f545e0567a08b4fa2a8578",
     "url": "/copyedit/index.html"
   },
   {
-    "revision": "40d7a4f6c6a666a5bb77",
-    "url": "/copyedit/static/css/HomePages.48dda9fa.chunk.css"
+    "revision": "ba9edc5160849c0ed803",
+    "url": "/copyedit/static/css/MovieDetailsPage.663ca166.chunk.css"
   },
   {
-    "revision": "eddaaf47ea11318cbbc8",
-    "url": "/copyedit/static/css/MovieDetailsPage.224e79d3.chunk.css"
+    "revision": "d905a38842c3761fe702",
+    "url": "/copyedit/static/css/main.fc6fd839.chunk.css"
   },
   {
-    "revision": "08a687778796c78adbe2",
-    "url": "/copyedit/static/css/main.f4c72ad1.chunk.css"
-  },
-  {
-    "revision": "c0d3c14534c5ec65371a",
-    "url": "/copyedit/static/js/5.b0f9b3e3.chunk.js"
+    "revision": "51a8ac3d70a9e1ab02a3",
+    "url": "/copyedit/static/js/4.a8ed8239.chunk.js"
   },
   {
     "revision": "f7e623707d9b37a3821ec4c3548a4309",
-    "url": "/copyedit/static/js/5.b0f9b3e3.chunk.js.LICENSE.txt"
+    "url": "/copyedit/static/js/4.a8ed8239.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "40d7a4f6c6a666a5bb77",
-    "url": "/copyedit/static/js/HomePages.0af68693.chunk.js"
+    "revision": "ba9edc5160849c0ed803",
+    "url": "/copyedit/static/js/MovieDetailsPage.c72bb477.chunk.js"
   },
   {
-    "revision": "eddaaf47ea11318cbbc8",
-    "url": "/copyedit/static/js/MovieDetailsPage.ce94b07e.chunk.js"
+    "revision": "01b1e016a32fe3c068b7",
+    "url": "/copyedit/static/js/MoviesPage.9223f606.chunk.js"
   },
   {
-    "revision": "7cd139f078bf670720ec",
-    "url": "/copyedit/static/js/MoviesPage.338560b1.chunk.js"
+    "revision": "d905a38842c3761fe702",
+    "url": "/copyedit/static/js/main.f672d787.chunk.js"
   },
   {
-    "revision": "08a687778796c78adbe2",
-    "url": "/copyedit/static/js/main.d1e9d547.chunk.js"
-  },
-  {
-    "revision": "04631300c5dccb273be3",
-    "url": "/copyedit/static/js/runtime-main.2a67f96e.js"
+    "revision": "2eaca7f2cc97a36cf854",
+    "url": "/copyedit/static/js/runtime-main.97cc7551.js"
   },
   {
     "revision": "1a7e0a8165eb339f840ae337801e6307",
