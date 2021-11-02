@@ -1,62 +1,63 @@
-@media screen and (min-width: 1280px) {
-  .homepage {
-    /* display: flex; */
-    /* justify-content: center; */
-    padding-bottom: 30px;
-    width: 100%;
-  }
-  .bg {
-    margin: 0 auto;
-    padding: 0 90px;
-    width: 1280px;
-    height: 100vh;
-    background: url(../../image/overhead-view-of-spiral-notepad-with-pen-and-pink-flowers-on-wooden-background_23-2147889664.jpg),
-      linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 1) 746px,
-        rgba(240, 241, 243, 1) 0
-      );
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .title {
-    font-size: 65px;
-    font-style: bold;
-  }
-  .poster {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    /* max-width: 1600px; */
-    height: 600px;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .btn {
-    padding: 10px;
-    background-color: #01996d;
-    border-radius: 5px;
-    margin: 0px auto;
-    min-width: 200px;
-    align-items: center;
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.87;
-    font-weight: 400;
-    letter-spacing: 0.06em;
-    border: none;
-    outline: none;
-  }
-  .sectionTitle {
-    margin-top: 0px;
-    margin-bottom: 50px;
-    font-size: 36px;
-    line-height: 1.17;
-    font-weight: 700;
-    text-align: center;
-  }
+.homepage {
+  /* display: flex; */
+  /* justify-content: center; */
+
+  width: 100%;
+}
+.bg {
+  margin: 0 auto;
+  /* padding: 0 90px; */
+  width: 1280px;
+  height: 700px;
+  background: url(../../image/overhead-view-of-spiral-notepad-with-pen-and-pink-flowers-on-wooden-background_23-2147889664.jpg),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 746px,
+      rgba(240, 241, 243, 1) 0
+    );
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  font-size: 65px;
+  font-style: bold;
+}
+.poster {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  /* max-width: 1600px; */
+  height: 600px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn {
+  padding: 10px;
+  background-color: #01996d;
+  border-radius: 5px;
+  margin: 0px auto;
+  min-width: 200px;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  border: none;
+  outline: none;
+}
+.sectionTitle {
+  margin-top: 0px;
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+  text-align: center;
+}
+
+.fieldsList {
+  padding-top: 70px;
 }

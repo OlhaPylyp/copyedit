@@ -1,8 +1,11 @@
+import React from "react";
+
 import ContainerForHomepage from "../../components/ContainerForHomepage/ContainerForHomepage";
 
 import styles from "../HomePage/homePage.module.css";
 import FieldsList from "../../components/directionList/directionList";
 import fields from "../../direction.json";
+import Footer from "../../components/footer/Footer";
 // import Header from "../../components/Header";
 
 function HomePageView() {
@@ -17,10 +20,11 @@ function HomePageView() {
             <button className={styles.btn}>Обо мне</button>
           </div>
         </section>
-        <section>
-          <FieldsList fields={fields} />
-        </section>
       </ContainerForHomepage>
+      <section className={styles.fieldsList}>
+        <FieldsList fields={fields} />
+        <Footer />
+      </section>
     </div>
   );
 }
