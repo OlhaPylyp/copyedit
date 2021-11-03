@@ -12,11 +12,9 @@ import Footer from "../../components/Footer/Footer";
 function HomePageView() {
   return (
     <div>
+      <Poster />
       <ContainerForHomepage>
-        <Poster />
-
         <FieldsList fields={fields} />
-
         <section className={styles.section}>
           <Footer name={fields} />
         </section>

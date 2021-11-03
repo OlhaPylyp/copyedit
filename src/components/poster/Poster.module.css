@@ -3,7 +3,7 @@
 }
 .poster {
   display: flex;
-  max-width: 100%;
+  max-width: 1800px;
   height: 600px;
   align-items: center;
   background-repeat: no-repeat;
