@@ -1,12 +1,13 @@
 import React from "react";
-import fields from "../../Jsone/portolio.json";
+import fields from "../../Jsone/portfolio.json";
+import name from "../../Jsone/copyedit.json";
 import Portfoliolist from "../../components/PortfolioList";
-import Footer from "../../components/footer/Footer";
+import Footer from "../../components/Footer/Footer";
 const Portfolio = () => {
   return (
     <div>
       <Portfoliolist fields={fields} />
-      <Footer />
+      <Footer name={name} />
     </div>
   );
 };
