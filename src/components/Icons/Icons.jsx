@@ -11,7 +11,7 @@ function Icons({ name, color, size, className }) {
       width={size}
       height={size}
     >
-      <use className={styles.icon} xlinkHref={`${IconsSVG}#icon-${name}`} />
+      <use xlinkHref={`${IconsSVG}#icon-${name}`} />
     </svg>
   );
 }
