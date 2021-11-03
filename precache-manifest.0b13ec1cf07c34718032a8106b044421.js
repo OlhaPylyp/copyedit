@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6785478b83bb1862c3fc5a07139f920",
+    "revision": "9622dc0868631a329a9becc1a0680635",
     "url": "/copyedit/index.html"
   },
   {
-    "revision": "ba9edc5160849c0ed803",
+    "revision": "d1cc10d4a4188cd25c9c",
     "url": "/copyedit/static/css/MovieDetailsPage.663ca166.chunk.css"
   },
   {
-    "revision": "6f400291bc673b9e05a0",
-    "url": "/copyedit/static/css/main.d66aaa17.chunk.css"
+    "revision": "fe9ec502ff13ae73b235",
+    "url": "/copyedit/static/css/main.228fa18e.chunk.css"
   },
   {
-    "revision": "51a8ac3d70a9e1ab02a3",
-    "url": "/copyedit/static/js/4.a8ed8239.chunk.js"
+    "revision": "f435e508659a5debf553",
+    "url": "/copyedit/static/js/4.53767e78.chunk.js"
   },
   {
     "revision": "f7e623707d9b37a3821ec4c3548a4309",
-    "url": "/copyedit/static/js/4.a8ed8239.chunk.js.LICENSE.txt"
+    "url": "/copyedit/static/js/4.53767e78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba9edc5160849c0ed803",
-    "url": "/copyedit/static/js/MovieDetailsPage.c72bb477.chunk.js"
+    "revision": "d1cc10d4a4188cd25c9c",
+    "url": "/copyedit/static/js/MovieDetailsPage.7ff4eb3d.chunk.js"
   },
   {
-    "revision": "01b1e016a32fe3c068b7",
-    "url": "/copyedit/static/js/MoviesPage.9223f606.chunk.js"
+    "revision": "87561bd676bee88acda6",
+    "url": "/copyedit/static/js/MoviesPage.97377a6b.chunk.js"
   },
   {
-    "revision": "6f400291bc673b9e05a0",
-    "url": "/copyedit/static/js/main.f672d787.chunk.js"
+    "revision": "fe9ec502ff13ae73b235",
+    "url": "/copyedit/static/js/main.52c78ee6.chunk.js"
   },
   {
-    "revision": "2eaca7f2cc97a36cf854",
-    "url": "/copyedit/static/js/runtime-main.97cc7551.js"
+    "revision": "02aa9c9c6394ec2b7a2f",
+    "url": "/copyedit/static/js/runtime-main.28c824e5.js"
   },
   {
     "revision": "1a7e0a8165eb339f840ae337801e6307",
@@ -94,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "977a9918c12f403b3da06022f90145df",
     "url": "/copyedit/static/media/Verdana.977a9918.woff"
+  },
+  {
+    "revision": "fc77e8ad7827bb38605d148dfd754ea7",
+    "url": "/copyedit/static/media/icons.fc77e8ad.svg"
   },
   {
     "revision": "ced06691a9c306bbe1c2d4991720c06d",
