@@ -17,12 +17,7 @@ function Footer({ name }) {
                 rel="noopener noreferrer"
                 aria-label="ссылка инстаграм"
               >
-                <Icons
-                  name={name}
-                  color="blue"
-                  size="44"
-                  className="footer_social_link"
-                />
+                <Icons name={name} color="grey" size="30" className="icon" />
               </a>
             </li>
           );

@@ -4,12 +4,13 @@ const HomePageView = lazy(() =>
   import("./pages/HomePage/HomePage" /* webpackChunkName: "HomePages" */)
 );
 const Service = lazy(() =>
-  import("./pages/Services/Service" /* webpackChunkName: "MoviesPage" */)
+  import("./pages/Services/Service" /* webpackChunkName: "Service" */)
 );
 const Portfolio = lazy(() =>
-  import(
-    "./pages/Portfolio/Portfolio" /* webpackChunkName: "MovieDetailsPage" */
-  )
+  import("./pages/Portfolio/Portfolio" /* webpackChunkName: "Portfolio" */)
+);
+const About = lazy(() =>
+  import("./components/About/About" /* webpackChunkName: "About" */)
 );
 
 const routes = [
@@ -23,17 +24,17 @@ const routes = [
     path: "/Service/",
     label: "Service",
     component: Service,
-    exact: true,
+    // exact: true,
   },
   {
     path: "/Portfolio",
     label: "Portfolio",
     component: Portfolio,
   },
-  // {
-  //   path: "/MoviesPage/:movieId",
-  //   label: "Movie Details Page",
-  //   component: MovieDetailsPage,
-  // },
+  {
+    path: "/About",
+    label: "about me",
+    component: About,
+  },
 ];
 export default routes;

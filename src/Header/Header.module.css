@@ -1,0 +1,122 @@
+.link {
+  text-decoration: none;
+}
+.NavLink {
+  text-decoration: none;
+}
+/* .list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+} */
+.item .NavLink:hover,
+.item .NavLink:focus,
+.item .NavLink:active {
+  color: #2196f3;
+  cursor: pointer;
+}
+/*header
+.page-header {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}*/
+/*logo*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo {
+  margin-right: 93px;
+  color: red;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.page_header {
+  padding: 25px 0;
+  border-bottom: 1px solid #ececec;
+}
+.page_header .flexbox {
+  align-items: center;
+}
+
+/*site-nav*/
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.siteNav {
+  display: flex;
+  margin-left: 0px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.siteNav .NavLink {
+  padding: 32px 0;
+
+  color: rgb(23, 118, 243);
+
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* .active {
+  position: relative;
+  padding: 32px 0;
+  color: #2196f3;
+  text-decoration: none;
+} */
+.siteNav .item:not(:last-child) {
+  margin-right: 50px;
+}
+/* .active::after {
+  display: flex;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2196f3;
+  bottom: -2%;
+} */
+
+/* adress header*/
+/*link style*/
+.siteAdr {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  letter-spacing: 0.02em;
+
+  border: none;
+}
+
+.siteAdr .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.siteAdr .link {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+
+  letter-spacing: 0.02em;
+  color: black;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

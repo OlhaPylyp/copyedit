@@ -1,9 +1,11 @@
 import React from "react";
+
 const Service = () => {
   return (
     <div>
       {/* <Header /> */}
-      <div>Service</div>
+
+      <h2> ПРАЙС</h2>
     </div>
   );
 };

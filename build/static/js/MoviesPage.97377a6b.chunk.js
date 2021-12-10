@@ -1,2 +1,0 @@
-(this.webpackJsonpcopyedit=this.webpackJsonpcopyedit||[]).push([[1],{43:function(e,t,n){"use strict";n.r(t);var c=n(0),i=n.n(c);t.default=function(){return i.a.createElement("div",null,i.a.createElement("div",null,"Service"))}}}]);
-//# sourceMappingURL=MoviesPage.97377a6b.chunk.js.map

@@ -5,7 +5,7 @@ import styles from "./DirectionList.module.css";
 
 const FieldsList = ({ fields }) => (
   <div className={styles.container}>
-    <h2 className={styles.mainTitle}>Основные тематики</h2>
+    <h2 className={styles.title}>Основные тематики</h2>
     <ul className={styles.list}>
       {" "}
       {fields.map(({ img, id, title, text }) => (

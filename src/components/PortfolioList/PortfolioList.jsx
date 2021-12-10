@@ -14,6 +14,7 @@ const PortfolioList = ({ fields }) => (
           <div className={styles.service_container}>
             <p className={styles.text}>{text}</p>
             <h3 className={styles.title}>{title}</h3>
+
             <div className={styles.btn}>Интересно</div>
           </div>
         </li>

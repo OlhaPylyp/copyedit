@@ -1,59 +1,64 @@
-@media screen and (min-width: 1280px) {
-  li {
-    list-style: none;
-  }
-  .container {
-    padding-top: 80px;
-  }
-  .mainTitle {
-    text-align: center;
-    font-family: Tahoma, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-  .list {
-    display: flex;
-    flex-direction: row;
-    margin-left: -30px;
-    margin-top: -30px;
-    padding: 10;
-    list-style: none;
-  }
-  .item {
-    position: relative;
-    padding: 10px;
-    margin-left: 30px;
-    margin-top: 30px;
-    flex-basis: calc((100% - 30px) / 4);
-    background-color: rgb(255, 254, 254);
-    border-radius: 10px;
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  }
-  .item:nth-child(2n + 2) {
-    margin-top: 50px;
-  }
-  .item:nth-child(n + 1) {
-    margin-top: 50px;
-  }
-  .number {
-    position: absolute;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 100px;
-    top: -150px;
-    left: 30%;
-    transform: translateX(-50%);
-    color: rgba(1, 153, 109, 0.2);
-  }
-  .text {
-    font-family: Verdana, Tahoma, sans-serif;
-    color: black;
-  }
-  .title {
-    font-family: Verdana, Tahoma, sans-serif;
-    color: #000000;
-    font-weight: bold;
-    font-size: 30px;
-  }
+/* @media screen and (min-width: 1280px) { */
+li {
+  list-style: none;
 }
+.container {
+  padding-top: 80px;
+  /* display: flex;
+    flex-direction: column; */
+}
+.title {
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: black;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 10;
+  list-style: none;
+}
+.item {
+  position: relative;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 30px) / 4);
+  background-color: rgb(255, 254, 254);
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.item:nth-child(2n + 2) {
+  margin-top: 50px;
+}
+.item:nth-child(n + 1) {
+  margin-top: 50px;
+}
+.number {
+  position: absolute;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 100px;
+  top: -150px;
+  left: 30%;
+  transform: translateX(-50%);
+  color: rgba(1, 153, 109, 0.2);
+}
+.text {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+.item .title {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #000000;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* } */
