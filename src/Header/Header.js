@@ -7,7 +7,7 @@ import routes from "../routes";
 
 // const useStyles = createUseStyles({});
 const Header = () => {
-  // const styles = useStyles();
+  // const style = useStyles();
   return (
     <header className={styles.page_header}>
       <div className={styles.container}>
@@ -21,14 +21,27 @@ const Header = () => {
             LOGO
           </NavLink>
           <ul className={styles.siteNav}>
-            <li className={styles.item}>
+            {routes.map(({ path, exact, label }) => (
+              <li className={styles.item}>
+                <NavLink
+                  key={path}
+                  to={path}
+                  className={styles.NavLink}
+                  activeClassName={styles.NavLinkActive}
+                  exact={exact}
+                >
+                  {label}
+                </NavLink>
+              </li>
+            ))}
+            {/* <li className={styles.item}>
               <NavLink
                 exact
                 to="/"
                 className={styles.NavLink}
                 activeClassName={styles.NavLinkActive}
               >
-                MyHomePage
+                HomePage
               </NavLink>
             </li>
             <li className={styles.item}>
@@ -48,7 +61,7 @@ const Header = () => {
               >
                 Портфолио
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </nav>
 

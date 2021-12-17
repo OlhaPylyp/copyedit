@@ -1,8 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
+// import { Link, useLocation } from "react-router-dom";
 import styles from "./Portfolio.module.css";
 
-const PortfolioList = ({ fields }) => (
+const PortfolioList = ({ fields }) => {
+  // const { pathname } = useLocation();
   <div className={styles.container}>
     <h2 className={styles.mainTitle}>ПОРТФОЛИО</h2>
     <p>Примеры моих работ</p>
@@ -15,13 +17,21 @@ const PortfolioList = ({ fields }) => (
             <p className={styles.text}>{text}</p>
             <h3 className={styles.title}>{title}</h3>
 
+            {/* <Link
+              to={`${pathname}/${id}`}
+              // to={{
+              //   pathname: `/Portfolio/${id}`,
+              // }}
+            >
+              <div className={styles.btn}>Интересно</div>
+            </Link> */}
             <div className={styles.btn}>Интересно</div>
           </div>
         </li>
       ))}
     </ul>
-  </div>
-);
+  </div>;
+};
 
 PortfolioList.defaultProps = {
   avatar: "https://www.flaticon.com/svg/static/icons/svg/763/763704.svg",

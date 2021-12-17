@@ -12,14 +12,12 @@ import SimpleSlider from "../../components/Clients/clients";
 
 function HomePageView() {
   return (
-    <div className={styles.section}>
+    <div>
       <ContainerForHomepage>
         <Poster />
         <FieldsList fields={fields} />
         <SimpleSlider />
-        <section className={styles.section}>
-          <Footer name={fields} />
-        </section>
+        <section className={styles.section}></section>
       </ContainerForHomepage>
     </div>
   );

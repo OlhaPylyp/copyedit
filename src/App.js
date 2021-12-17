@@ -5,6 +5,9 @@ import HomePage from "./pages/HomePage/HomePage";
 import ContainerForHomepage from "./components/ContainerForHomepage/ContainerForHomepage";
 import { Suspense } from "react";
 import { Route, NavLink, Switch } from "react-router-dom";
+// import FieldsList from "./components/directionList/DirectionList";
+import Footer from "./components/Footer/Footer";
+import fields from "./Jsone/copyedit.json";
 import routes from "./routes";
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
           ))}
         </Switch>
       </Suspense>
+      <Footer name={fields} />
       {/* //   <div className="App-header"> */}
       {/* <ContainerForHomepage> */}
 

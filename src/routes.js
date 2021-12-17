@@ -9,32 +9,37 @@ const Service = lazy(() =>
 const Portfolio = lazy(() =>
   import("./pages/Portfolio/Portfolio" /* webpackChunkName: "Portfolio" */)
 );
-const About = lazy(() =>
-  import("./components/About/About" /* webpackChunkName: "About" */)
+const PortfolioDetails = lazy(() =>
+  import("./components/portfolioDetails/About" /* webpackChunkName: "About" */)
 );
 
 const routes = [
   {
     path: "/",
-    label: "Home Page",
+    label: "HomePage",
     component: HomePageView,
     exact: true,
   },
   {
     path: "/Service/",
-    label: "Service",
+    label: "Услуги",
     component: Service,
     // exact: true,
   },
   {
-    path: "/Portfolio",
+    path: "/Portfolio/",
     label: "Portfolio",
     component: Portfolio,
   },
-  {
-    path: "/About",
-    label: "about me",
-    component: About,
-  },
+  // {
+  //   path: "/Portfolio/:id",
+  //   label: "Portfolio Details",
+  //   component: PortfolioDetails,
+  // },npm start
+  // {
+  //   path: "/About",
+  //   label: "about me",
+  //   component: About,
+  // },
 ];
 export default routes;
