@@ -1,13 +1,22 @@
 import React from "react";
 import styles from "./Header.module.css";
-// import { createUseStyles } from "react-jss";
+import { createUseStyles } from "react-jss";
 import { Suspense } from "react";
 import { Route, NavLink, Switch } from "react-router-dom";
 import routes from "../routes";
 
-// const useStyles = createUseStyles({});
+const useStyles = createUseStyles({
+  active: {
+    color: "green",
+  },
+});
+const checkShowPage = (isProtected) => {
+  const showProtected = !isProtected;
+
+  return showProtected;
+};
 const Header = () => {
-  // const style = useStyles();
+  const style = useStyles();
   return (
     <header className={styles.page_header}>
       <div className={styles.container}>
@@ -16,24 +25,27 @@ const Header = () => {
             exact
             to="/"
             className={styles.NavLink && styles.logo}
-            activeClassName={styles.NavLinkActive}
+            activeClassName={style.active}
           >
             LOGO
           </NavLink>
           <ul className={styles.siteNav}>
-            {routes.map(({ path, exact, label }) => (
-              <li className={styles.item}>
-                <NavLink
-                  key={path}
-                  to={path}
-                  className={styles.NavLink}
-                  activeClassName={styles.NavLinkActive}
-                  exact={exact}
-                >
-                  {label}
-                </NavLink>
-              </li>
-            ))}
+            {routes.map(({ path, exact, label, isProtected }) => {
+              const show = checkShowPage(isProtected);
+              return show ? (
+                <li className={styles.item}>
+                  <NavLink
+                    key={path}
+                    to={path}
+                    className={styles.NavLink}
+                    // activeClassName={style.active}
+                    exact={exact}
+                  >
+                    {label}
+                  </NavLink>
+                </li>
+              ) : null;
+            })}
             {/* <li className={styles.item}>
               <NavLink
                 exact

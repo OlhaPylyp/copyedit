@@ -19,27 +19,27 @@ const routes = [
     label: "HomePage",
     component: HomePageView,
     exact: true,
+    isProtected: false,
   },
   {
     path: "/Service/",
     label: "Услуги",
     component: Service,
+    isProtected: false,
     // exact: true,
   },
   {
     path: "/Portfolio/",
-    label: "Portfolio",
+    label: "Портфолио",
     component: Portfolio,
+    exact: true,
+    isProtected: false,
   },
-  // {
-  //   path: "/Portfolio/:id",
-  //   label: "Portfolio Details",
-  //   component: PortfolioDetails,
-  // },npm start
-  // {
-  //   path: "/About",
-  //   label: "about me",
-  //   component: About,
-  // },
+  {
+    path: "/Portfolio/:id",
+    label: "Portfolio Details",
+    component: PortfolioDetails,
+    isProtected: true,
+  },
 ];
 export default routes;
