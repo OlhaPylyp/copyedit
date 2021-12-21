@@ -1,18 +1,35 @@
 .link {
   text-decoration: none;
 }
-.NavLink {
+
+.page_header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: #ffffff;
   text-decoration: none;
+  line-height: 1.17;
+  background: #ffffff;
+  border-bottom: 1px solid #ececec;
 }
-/* .list {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-} */
-.item .NavLink:hover,
-.item .NavLink:focus,
-.item .NavLink:active {
-  color: #2196f3;
+
+@media (max-width: 767px) {
+  .page_header {
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page_header {
+    padding: 21px 0;
+  }
+}
+
+.NavLink:hover,
+.NavLink:focus,
+.NavLink:active {
+  color: #21f3d0;
   cursor: pointer;
 }
 /*header
@@ -22,7 +39,104 @@
   padding-right: 15px;
 }*/
 /*logo*/
+.header-_menu {
+  z-index: 1;
+}
 
+@media (max-width: 767px) {
+  .header_menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    transform: translatey(-100%);
+    opacity: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+      0px 1px 3px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+  }
+  .header_menu.is_open {
+    opacity: 1;
+    transform: translatey(61px);
+  }
+  .header_menu.is_open .container {
+    pointer-events: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .header_menu {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  letter-spacing: 0.02em;
+}
+
+@media (min-width: 768px) {
+  .header_container {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .header_container {
+    font-size: 18px;
+    line-height: 1.36;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header_container {
+    font-size: 12px;
+    line-height: 1.17;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header_container {
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 500;
+  }
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -32,6 +146,7 @@
   margin-left: auto;
 }
 .logo {
+  text-decoration: none;
   margin-right: 93px;
   color: red;
   text-decoration: none;
@@ -61,9 +176,9 @@
   margin: 0px;
 }
 
-.siteNav .NavLink {
+.siteNavLink {
   padding: 32px 0;
-
+  text-decoration: none;
   color: rgb(23, 118, 243);
 
   cursor: pointer;
@@ -98,7 +213,7 @@
 
 /* adress header*/
 /*link style*/
-.siteAdr {
+/* .siteAdr {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -119,6 +234,64 @@
   letter-spacing: 0.02em;
   color: black;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+@media (max-width: 767px) {
+  .header_adr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+  .header_adr_item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.header_adr_link {
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.header_adr_item:hover {
+  fill: #2196f3;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header_adr {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: normal;
+    margin-left: auto;
+  }
+  .header_adr_item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header_adr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    letter-spacing: 0.02em;
+    border: none;
+    line-height: 1.14;
+  }
+  .header_adr_item {
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+  /* .header-adr_icon-mail {
+    width: 16px;
+    height: 12px;
+  }
+  .header-adr__icon-tel {
+    width: 10px;
+    height: 16px;
+  } */
 }
 .NavLinkActive {
   color: rgb(11, 116, 81);

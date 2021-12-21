@@ -6,7 +6,7 @@ import styles from "./Portfolio.module.css";
 const PortfolioList = ({ fields }) => {
   const { pathname } = useLocation();
   return (
-    <div className={styles.container}>
+    <div>
       <h2 className={styles.mainTitle}>ПОРТФОЛИО</h2>
       <p>Примеры моих работ</p>
       <ul className={styles.list}>

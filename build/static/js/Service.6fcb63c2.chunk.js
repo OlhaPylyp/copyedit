@@ -1,0 +1,2 @@
+(this.webpackJsonpcopyedit=this.webpackJsonpcopyedit||[]).push([[2],{91:function(t,c,e){"use strict";e.r(c);e(0);var i=e(1);c.default=function(){return Object(i.jsx)("div",{children:Object(i.jsx)("h2",{children:" \u041f\u0420\u0410\u0419\u0421"})})}}}]);
+//# sourceMappingURL=Service.6fcb63c2.chunk.js.map

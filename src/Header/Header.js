@@ -19,34 +19,35 @@ const Header = () => {
   const style = useStyles();
   return (
     <header className={styles.page_header}>
-      <div className={styles.container}>
-        <nav className={styles.navigation}>
-          <NavLink
-            exact
-            to="/"
-            className={styles.NavLink && styles.logo}
-            activeClassName={style.active}
-          >
-            LOGO
-          </NavLink>
-          <ul className={styles.siteNav}>
-            {routes.map(({ path, exact, label, isProtected }) => {
-              const show = checkShowPage(isProtected);
-              return show ? (
-                <li className={styles.item}>
-                  <NavLink
-                    key={path}
-                    to={path}
-                    className={styles.NavLink}
-                    // activeClassName={style.active}
-                    exact={exact}
-                  >
-                    {label}
-                  </NavLink>
-                </li>
-              ) : null;
-            })}
-            {/* <li className={styles.item}>
+      <div className={styles.container && styles.header_container}>
+        <NavLink
+          exact
+          to="/"
+          className={styles.logo}
+          activeClassName={style.active}
+        >
+          LOGO
+        </NavLink>
+        <div className={styles.header_menu}>
+          <nav className={styles.navigation}>
+            <ul className={styles.siteNav}>
+              {routes.map(({ path, exact, label, isProtected }) => {
+                const show = checkShowPage(isProtected);
+                return show ? (
+                  <li className={styles.item}>
+                    <NavLink
+                      key={path}
+                      to={path}
+                      className={styles.siteNavLink}
+                      activeClassName={style.active}
+                      exact={exact}
+                    >
+                      {label}
+                    </NavLink>
+                  </li>
+                ) : null;
+              })}
+              {/* <li className={styles.item}>
               <NavLink
                 exact
                 to="/"
@@ -74,21 +75,28 @@ const Header = () => {
                 Портфолио
               </NavLink>
             </li> */}
-          </ul>
-        </nav>
+            </ul>
+          </nav>
 
-        <ul className={styles.siteAdr}>
-          <li className={styles.item}>
-            <a className={styles.link} href="mailto:masha@mail.com<">
-              masha@mail.com
-            </a>
-          </li>
-          <li className={styles.item}>
-            <a className={styles.link} href="tel:+380669866466<">
-              +380669866466
-            </a>
-          </li>
-        </ul>
+          <ul className={styles.header_adr}>
+            <li className={styles.item && styles.header_adr_item}>
+              <a
+                className={styles.link && styles.header_adr_link}
+                href="mailto:masha@mail.com<"
+              >
+                masha@mail.com
+              </a>
+            </li>
+            <li className={styles.item && styles.header_adr_item}>
+              <a
+                className={styles.link && styles.header_adr_link}
+                href="tel:+380669866466<"
+              >
+                +380669866466
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
   );

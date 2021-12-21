@@ -1,6 +1,9 @@
 import { React, useState, useEffect } from "react";
 // import FetchDetails from "../../utils/ApiUtilit";
-import axios from "axios";
+import data from "../../Jsone/details.json";
+import PropTypes from "prop-types";
+
+// import axios from "axios";
 
 const About = ({
   match: {
@@ -8,33 +11,40 @@ const About = ({
   },
   history: { goBack },
 }) => {
-  const [detail, setDetail] = useState([]);
-  useEffect(() => {
-    axios.get("details.json").then((response) => {
-      console.log(response.data);
-      setDetail(response.data);
-    });
-  }, []);
+  // const [detail, setDetail] = useState([]);
+  // const getData = () => {
+  //   console.log(data.id);
+  // };
+
+  // getData();
+  // // useEffect(() => {
+
+  // // }, []);
   return (
     <div>
-      <h2> Details: {id}</h2>
-      {detail.map(({ id }) => (
-        <li>{id}</li>
-      ))}
+      {data
+        .filter(({ id_data }) => id === id_data)
+        .map(({ title, text, img }) => (
+          <div>
+            <h2>{title}</h2>
+            <img src={img} alt="" />
+            <p>{text}</p>
+          </div>
+        ))}
       <button onClick={goBack}>go Back</button>;
     </div>
   );
 };
 
-// PortfolioList.defaultProps = {
-//   avatar: "https://www.flaticon.com/svg/static/icons/svg/763/763704.svg",
-// };
-// PortfolioList.prototype = {
-//   fields: PropTypes.exact({
-//     id: PropTypes.number.isRequired,
-//     title: PropTypes.string,
-//     text: PropTypes.string.isRequired,
-//   }),
-// };
+About.defaultProps = {
+  img: "https://www.flaticon.com/svg/static/icons/svg/763/763704.svg",
+};
+About.prototype = {
+  data: PropTypes.exact({
+    id_data: PropTypes.number.isRequired,
+    title: PropTypes.string,
+    text: PropTypes.string.isRequired,
+  }),
+};
 
 export default About;
